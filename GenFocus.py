@@ -81,4 +81,4 @@ def genfocus(df, focus_gene='PTPRC', method='spearman', tpm=True, corr_thr=0.9, 
         fing = df_tpm.apply((lambda x: sum(x[exclusion(ings,j)])/(len(ings)-1)), axis=1)
         df_tpm.loc[:, j] = df_tpm.loc[:, j].div(fing, axis=0)
     
-    return df_tpm
+    return ings, df_tpm
