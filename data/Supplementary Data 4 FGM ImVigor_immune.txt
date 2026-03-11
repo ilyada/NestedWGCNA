@@ -1,0 +1,204 @@
+Module 1 (plasma cells) genes:
+CD38, TENT5C, POU2AF1, TAGAP, NUGGC, DERL3, PIM2, AC136428.1, FCRL5, ZBP1, SLAMF7, JCHAIN, FCRL4, CD79A, MEI1, KCNA3, AMPD1, LAX1, DCC, MZB1, IRF4
+
+Module 1 annotation, module size: 21
+                    Term Overlap  P-value  Adjusted P-value  Odds Ratio
+Plasma cells_BLUEPRINT_2     5/9 0.000001          0.000059   25.842105
+     Plasma cells_IRIS_2     4/6 0.000007          0.000160   29.254945
+     Plasma cells_IRIS_3     3/5 0.000187          0.002926   25.471744
+
+Module 2 (B cells) genes:
+CR2, CD79B, CD37, TNFRSF13B, MS4A1, STAP1, FCRL2, TCL1A, CD22, CCL19, CXCR5, BLK, CLEC17A, FCER2, CD19, FCRL1, P2RX5, FCRL3, LY9
+
+Module 2 annotation, module size: 19
+                                       Term Overlap      P-value  Adjusted P-value  Odds Ratio
+                      B-cells_NOVERSHTERN_1   11/25 3.203473e-13      2.370570e-11   38.227220
+                      B-cells_NOVERSHTERN_2   11/29 2.386769e-12      5.887362e-11   32.860419
+                      B-cells_NOVERSHTERN_3   10/21 2.107413e-12      5.887362e-11   37.244798
+                       naive B-cells_HPCA_3    9/16 5.222614e-12      9.661836e-11   40.001443
+                  naive B-cells_BLUEPRINT_2    8/12 1.564707e-11      2.315767e-10   43.372174
+                       naive B-cells_HPCA_1    8/13 4.014038e-11      3.758355e-10   40.104670
+                      Memory B-cells_HPCA_2    9/19 4.063087e-11      3.758355e-10   33.708181
+                          B_cells_bostongen    8/13 4.014038e-11      3.758355e-10   40.104670
+                 Memory B-cells_BLUEPRINT_2    9/22 2.107569e-10      1.732890e-09   29.093122
+                      Memory B-cells_HPCA_1    7/10 2.357405e-10      1.744480e-09   42.028571
+                 Memory B-cells_BLUEPRINT_3    9/23 3.419478e-10      2.300376e-09   27.816616
+                naive B-cells_NOVERSHTERN_3    8/16 3.855400e-10      2.377496e-09   32.678524
+                           B-cells_FANTOM_1    7/11 6.390358e-10      3.637588e-09   38.321739
+                  naive B-cells_BLUEPRINT_1     6/7 8.037893e-10      4.248600e-09   47.409877
+                      Memory B-cells_IRIS_2    7/12 1.511780e-09      7.458114e-09   35.208000
+                 Memory B-cells_BLUEPRINT_1    9/27 1.865378e-09      8.627374e-09   23.638961
+                       naive B-cells_HPCA_2    7/13 3.228693e-09      1.257491e-08   32.555556
+                           B-cells_FANTOM_3    7/13 3.228693e-09      1.257491e-08   32.555556
+                  naive B-cells_BLUEPRINT_3     6/8 3.166636e-09      1.257491e-08   41.775599
+                      Memory B-cells_HPCA_3     6/9 9.356419e-09      3.461875e-08   37.327485
+                             B-cells_HPCA_1    7/17 3.453879e-08      1.217081e-07   24.977143
+                             B-cells_HPCA_3     5/6 3.639116e-08      1.224066e-07   43.153846
+                naive B-cells_NOVERSHTERN_1    6/12 9.831925e-08      3.031510e-07   28.253333
+                naive B-cells_NOVERSHTERN_2    6/12 9.831925e-08      3.031510e-07   28.253333
+                             B-cells_HPCA_2     5/7 1.253596e-07      3.710643e-07   37.349425
+Class-switched memory B-cells_NOVERSHTERN_3     5/8 3.290145e-07      9.017434e-07   32.910751
+Class-switched memory B-cells_NOVERSHTERN_2     5/8 3.290145e-07      9.017434e-07   32.910751
+                           B-cells_FANTOM_2     5/9 7.285870e-07      1.925551e-06   29.406534
+Class-switched memory B-cells_NOVERSHTERN_1    5/10 1.434137e-06      3.659521e-06   26.569787
+                   Plasma cells_BLUEPRINT_3    4/12 1.322109e-04      3.261202e-04   17.036129
+                      Memory B-cells_IRIS_3     3/5 1.366454e-04      3.261858e-04   28.559229
+                      Memory B-cells_IRIS_1     3/6 2.688713e-04      6.217648e-04   24.132867
+
+Module 3 (CD16/CD14) genes:
+FLT3, CFP, ST6GAL1, FCN1, FCAMR, CETP, KMO, JAML, WDFY4, LCN10, GAPT, CD1C, IQGAP2, STAT4, CR1, SH2D1A, PLD4, CLEC10A, CD52, CLECL1, LRRC18, CCR6, TLR10, ENAM
+
+Module 3 annotation, module size: 24
+Empty DataFrame
+Columns: [Term, Overlap, P-value, Adjusted P-value, Odds Ratio]
+Index: []
+
+Module 4 (Cytotoxic) genes:
+IFNG, SLFN12L, TNFRSF9, CD2, PYHIN1, ITGAL, EOMES, CCR5, CD3G, GZMK, TTC24, PTPN22, NKG7, PDCD1, TBX21, GZMB, ABCD2, GZMA, CD8A
+
+Module 4 annotation, module size: 19
+                    Term Overlap      P-value  Adjusted P-value  Odds Ratio
+         CD8+ Tem_HPCA_2   14/38 5.844744e-16      5.260269e-14   48.447462
+         CD8+ Tem_HPCA_1   13/31 1.547005e-15      6.961525e-14   47.109890
+    CD8+ Tem_BLUEPRINT_3   11/27 9.180622e-13      2.754186e-11   35.348663
+Effector_cells_bostongen     7/8 1.617365e-11      3.639071e-10   52.058824
+    CD8+ Tem_BLUEPRINT_2   10/30 1.620205e-10      2.916370e-09   25.928387
+  CD8+ Tem_NOVERSHTERN_2    7/10 2.357405e-10      3.536107e-09   42.028571
+        Tgd cells_HPCA_3   10/33 4.822570e-10      6.200447e-09   23.507463
+  CD8+ Tem_NOVERSHTERN_3    7/11 6.390358e-10      6.390358e-09   38.321739
+  CD8+ Tem_NOVERSHTERN_1    7/11 6.390358e-10      6.390358e-09   38.321739
+        Tgd cells_HPCA_2    9/27 1.865378e-09      1.678840e-08   23.638961
+        Tgd cells_HPCA_1    9/29 3.887122e-09      3.180373e-08   21.974980
+      NK_cells_bostongen     4/6 4.419568e-06      3.314676e-05   33.029777
+         NK cells_HPCA_1     4/9 3.534755e-05      2.447138e-04   22.507640
+         CD8+ Tem_HPCA_3    4/10 5.795650e-05      3.725775e-04   20.336406
+  CD8+ Tcm_NOVERSHTERN_2    4/11 8.959584e-05      5.375750e-04   18.542777
+  CD8+ Tcm_NOVERSHTERN_1    4/13 1.878682e-04      1.056759e-03   15.752688
+         NK cells_HPCA_2     3/6 2.688713e-04      1.423436e-03   24.132867
+  NK cells_NOVERSHTERN_1     2/2 6.170167e-04      2.922711e-03   42.485714
+  NK cells_NOVERSHTERN_3     2/2 6.170167e-04      2.922711e-03   42.485714
+         NK cells_HPCA_3     3/8 7.286885e-04      3.279098e-03   18.404635
+
+Module 5 (T cells) genes:
+SLAMF6, CD226, ZAP70, CTLA4, SASH3, SCML4, SNX20, CLEC4C, CYTIP, TRAT1, PARP15, CD48, CORO1A, CD28, ARRDC5, CCR4, IRF8, NLRC3, TIFAB, ARHGAP15, CD3E, P2RY10, INSYN2B, ARHGAP9, CD6, GPR174, TBC1D10C, ICOS, ITK, UBASH3A, ZNF831, PTPRC, PLA2G2D, SHISAL2A
+
+Module 5 annotation, module size: 34
+                            Term Overlap      P-value  Adjusted P-value  Odds Ratio
+          CD4+ Tcm_NOVERSHTERN_3   10/21 2.426522e-09      1.130953e-07   14.441860
+                 CD4+ Tcm_HPCA_3    9/16 2.599892e-09      1.130953e-07   16.471182
+                 CD4+ Tcm_HPCA_2   10/23 7.405138e-09      2.147490e-07   13.176292
+                 CD4+ Tcm_HPCA_1    9/18 1.037981e-08      2.257608e-07   14.650238
+      CD4+ memory T-cells_IRIS_2    7/12 1.473478e-07      2.136543e-06   16.003636
+        CD4+ T-cells_BLUEPRINT_2    8/17 1.460551e-07      2.136543e-06   13.352561
+      CD4+ memory T-cells_IRIS_3     6/9 4.396379e-07      5.464071e-06   17.681440
+                 CD4+ Tem_HPCA_2    8/21 1.075110e-06      1.169182e-05   10.808688
+      CD4+ memory T-cells_IRIS_1     5/7 2.897761e-06      2.521052e-05   18.358192
+           CD4+ T-cells_FANTOM_2     5/7 2.897761e-06      2.521052e-05   18.358192
+             CD4+ T-cells_HPCA_2    7/18 4.865911e-06      3.848493e-05   10.724816
+    CD4+ memory T-cells_FANTOM_1    6/13 7.867861e-06      5.704199e-05   12.374919
+          CD4+ Tem_NOVERSHTERN_1    7/20 1.110059e-05      7.428860e-05    9.651885
+CD4+ naive T-cells_NOVERSHTERN_1    6/14 1.332016e-05      8.277525e-05   11.505747
+    CD4+ memory T-cells_FANTOM_3     5/9 1.626901e-05      9.436025e-05   14.454059
+    CD4+ memory T-cells_FANTOM_2     4/5 1.762193e-05      9.581926e-05   19.864382
+           CD4+ T-cells_FANTOM_1    5/11 5.581751e-05      2.697846e-04   11.907885
+        CD4+ T-cells_BLUEPRINT_3    5/11 5.581751e-05      2.697846e-04   11.907885
+        CD4+ T-cells_BLUEPRINT_1    5/12 9.255919e-05      4.238237e-04   10.940339
+             CD4+ T-cells_HPCA_1    6/19 1.019566e-04      4.435110e-04    8.497076
+          CD4+ Tcm_NOVERSHTERN_2     4/7 1.154957e-04      4.784822e-04   14.527869
+             CD4+ T-cells_HPCA_3    6/20 1.408948e-04      5.571750e-04    8.071459
+                 CD4+ Tem_HPCA_1    6/21 1.908074e-04      7.217498e-04    7.685435
+          CD4+ Tcm_NOVERSHTERN_1     4/8 2.235165e-04      7.778374e-04   12.801350
+               T_cells_bostongen     4/8 2.235165e-04      7.778374e-04   12.801350
+                  Tregs_FANTOM_3    4/12 1.385866e-03      4.637322e-03    8.657705
+            CD4+ Tcm_BLUEPRINT_3    4/13 1.937144e-03      6.241909e-03    8.005464
+     CD4+ naive T-cells_FANTOM_2    5/22 2.206957e-03      6.857331e-03    5.995104
+            CD4+ Tem_BLUEPRINT_3     3/7 2.687087e-03      7.792554e-03   10.940741
+                    Tregs_HPCA_1     3/7 2.687087e-03      7.792554e-03   10.940741
+           CD4+ T-cells_FANTOM_3    5/24 3.332847e-03      9.353473e-03    5.490488
+
+Module 6 genes:
+FCRL6, BIRC3, TMEM273, CD180, ZC3H12D, CHST11, SLCO2B1, PIK3AP1, SIRPB2, HLA-DOB
+
+Module 6 annotation, module size: 10
+Empty DataFrame
+Columns: [Term, Overlap, P-value, Adjusted P-value, Odds Ratio]
+Index: []
+
+Module 7 (CD14) genes:
+BCL2A1, NCF1, FPR2, MEFV, LCP2, PLEK, NCF2, CASP5, ADGRE3, CD53, FPR1, MNDA, ADGRG3
+
+Module 7 annotation, module size: 13
+              Term Overlap      P-value  Adjusted P-value  Odds Ratio
+         CD14_mono    7/11 2.239871e-11      8.735495e-10   73.695652
+  Monocytes_HPCA_2     3/9 3.292910e-04      5.363397e-03   25.842105
+  Monocytes_HPCA_3    4/23 4.125690e-04      5.363397e-03   14.563270
+Monocytes_FANTOM_1    4/27 7.859158e-04      7.662679e-03   12.376077
+
+Module 8 genes:
+MS4A6A, MS4A4A, ITGB2, SIGLEC7, TREM2, CD300C, CD163, OSCAR, FCGR3A, TBXAS1, SELPLG, VSIG4, SIGLEC9, SIRPA, FCGR2A, C1orf162, HCST, MSR1, SIGLEC10, TYROBP, CYBB, CD84, C1QA, F13A1, C3AR1, ITGAM, LRRC25, CYTH4, C1QB, SIGLEC1, GPR84, AIF1, TLR8, RNASE6, HK3, CLEC6A, SLAMF8, MRC1, IL32, SLC11A1, FCER1G, AOAH, CLEC5A, FOLR2, HAVCR2, LY86, CD86, MYO1G, CMKLR1, C5AR1, ADORA3, CSF1R, SPI1, C1QC, ITGAX, IFI30, ALOX5AP, CD14, TMEM150B, GYPC, CD33
+
+Module 8 annotation, module size: 61
+                      Term Overlap      P-value  Adjusted P-value  Odds Ratio
+   Macrophages_BLUEPRINT_2   17/22 6.709895e-16      6.709895e-14   12.645443
+   Macrophages_BLUEPRINT_3   16/20 2.112422e-15      1.056211e-13   12.833825
+   Macrophages_BLUEPRINT_1   14/18 3.266416e-13      1.088805e-11   12.004267
+   Macrophages M1_FANTOM_3   15/22 9.779722e-13      2.444931e-11   10.718519
+   Macrophages M1_FANTOM_2   13/19 3.878610e-11      7.757221e-10   10.370341
+      Macrophages_FANTOM_3   10/13 1.552588e-09      2.587646e-08   11.062567
+        Monocytes_FANTOM_2   16/42 1.904697e-08      2.380871e-07    6.002715
+      Macrophages_FANTOM_2     7/7 1.775703e-08      2.380871e-07   13.550459
+        Macrophages_HPCA_3    8/10 5.123102e-08      5.123102e-07   11.129061
+        Macrophages_HPCA_1    8/10 5.123102e-08      5.123102e-07   11.129061
+Macrophages M1_BLUEPRINT_3   11/21 8.458975e-08      7.689977e-07    7.673728
+        Macrophages_IRIS_2    8/11 1.758309e-07      1.465257e-06   10.147501
+        Monocytes_FANTOM_3   14/37 1.980534e-07      1.481591e-06    5.767439
+        Monocytes_FANTOM_1   12/27 2.074227e-07      1.481591e-06    6.597796
+   Monocytes_NOVERSHTERN_1   12/31 1.300357e-06      8.669044e-06    5.727914
+        Macrophages_HPCA_2     6/8 5.855466e-06      3.659666e-05   10.161632
+        Macrophages_IRIS_3     5/6 1.772382e-05      9.328328e-05   11.074881
+      Macrophages_FANTOM_1     5/6 1.772382e-05      9.328328e-05   11.074881
+        Macrophages_IRIS_1     5/6 1.772382e-05      9.328328e-05   11.074881
+                aDC_IRIS_2   11/35 4.010948e-05      2.005474e-04    4.557663
+     Macrophages_bostongen     5/7 5.812441e-05      2.642019e-04    9.585251
+   Macrophages M1_FANTOM_1     5/7 5.812441e-05      2.642019e-04    9.585251
+               DC_FANTOM_3    6/11 7.929293e-05      3.447519e-04    7.480219
+                 DC_IRIS_2    6/12 1.484842e-04      6.186844e-04    6.872432
+     Macrophages M2_HPCA_2     3/3 5.243425e-04      2.097370e-03   12.692308
+Macrophages M2_BLUEPRINT_1    5/10 5.739659e-04      2.207561e-03    6.818795
+               DC_FANTOM_1     4/7 1.186033e-03      4.392716e-03    7.706087
+          Monocytes_HPCA_3    7/23 1.509953e-03      5.392690e-03    4.230919
+     Monocytes_BLUEPRINT_2     4/8 2.226827e-03      7.678715e-03    6.790281
+
+Module 9 genes:
+CRB2, TTC16, MPP1, NFAM1, SIT1, SHISA8, DTX1, SLFN11, PLXNC1, KCNA2, ATP2A3, PAX5, FYN, JSRP1, TMEM176B, SYNE3, C12orf42, LCK, KLHL33
+
+Module 9 annotation, module size: 19
+Empty DataFrame
+Columns: [Term, Overlap, P-value, Adjusted P-value, Odds Ratio]
+Index: []
+
+Module 10 genes:
+ABI3, VENTX, MEF2C, CPNE5, EBF3, RCSD1, SH2D3C, GIMAP4, GNGT2, GRAP, LIX1, MFNG, ZEB2, GIMAP5, GIMAP8, IL7R, ADAP2, RASGRP2, FLI1, CCDC170, IFFO1
+
+Module 10 annotation, module size: 21
+Empty DataFrame
+Columns: [Term, Overlap, P-value, Adjusted P-value, Odds Ratio]
+Index: []
+
+Module 11 genes:
+SLC43A3, TVP23A, MCOLN2, BATF3, THEMIS2, SLC25A53, OR2C1, ISG20, CXCR4, ANXA2R, HCK, LAT2, KLRC4-KLRK1, TMEM272, PTPRJ, ELL3, IL2RA, SNX22, IPCEF1, PPIAL4C, CARMIL2, DENND5B, MAP4K1, TMEM131L, NRROS, RASSF2, PNOC, IL18R1, RHOH, BCL2, MIXL1, POU6F1, ATP8B4, NFATC1, COL19A1, PLEKHO1, TSPAN32
+
+Module 11 annotation, module size: 37
+Empty DataFrame
+Columns: [Term, Overlap, P-value, Adjusted P-value, Odds Ratio]
+Index: []
+
+Module 12 genes:
+CCDC88C, POU2F2, TNFSF13, GIMAP6, RAPGEF1, FAM117A, DENND3, EHD1, MBNL1, CORO1B, APOL3, ZNF589, LIMD2, CCDC69, MPEG1, RASGRP1, MAN2B1, NFKB2, FERMT3, CYTH1, LRRC8C, FNBP1, CD83, FGL2, JAK2, TRAF3, ATG16L2, PPM1K, BMP2K, RNF166, ADPRM, ARHGAP30, ORAI2, CYLD, FHIT, GPCPD1, NINJ1, LAT, ZBTB25, CSK, GMFG, ARHGEF1, SUSD6, MAP4K2, BTN3A1, HERPUD1, SNAI3, RAPGEF6, SLC9B1, AP4B1, SEMA4D, RELT, PPM1M, ARHGAP22, TM6SF1, RASSF5, UVRAG, NXPE3, TNFSF12, ARHGDIB, MMP25, DGKD, STK10, TRAF5, FRMD4B, OXNAD1, DCK, ZHX2, NR3C1, AKNA, ZCCHC18, NFKB1, TRANK1, DENND1C, STK17A, LYL1, MBOAT4, PLCG2, ZNF318, PVRIG, SEL1L3, GRK6, IL11RA, SLA2, ATP6V1B2, EVL, CD68, MAST3, RASGRP3, TNFAIP8, ETS1, ARHGAP17, PTPN6, SMAP2, CFLAR, FGD2, FAM53B, CD4, ITPR2, TXNDC5, ICAM3, TRDMT1, BLNK, GP1BA, ITGAE, UTRN, ARHGAP18, SP140L, MCUB, BTN3A3, CTC1, BTN3A2, RIN3, CLEC4A, NLRP1, ATP8A1, DNHD1, PLEKHO2, ANGPTL6, ARRDC2, PIK3IP1, POPDC2, XBP1, ADGRE5, CLIC2, CEP120, PTK2B, BTN2A2, RALGPS2, SP100, SYVN1, PARP8, AC008676.3, CNOT6L, ELMO1, ICAM2, APOBEC3D, CEP128, PMEL, CEP85L, CARD8, GP5, TNFAIP8L2, GGA2, PIP4K2A, ITPKB, NDST2, PXK, FCHSD2, RFTN1, TRAF1, SIPA1, IL3RA, ZNF169, FCHO1, EVI2B, ITGB7, SSH2, TNFRSF13C, KDM2B, PSTPIP1, DNAH1, ARHGAP25, CYSLTR1, SP110, ZNF267, RAB27A, GPR183, CHMP7, EAF2, ST3GAL2, CARNS1, INPP5D, FOXP3, DOCK8, TSPAN33, CD27, SYTL3, FLT3LG, KLRB1, SAMHD1, LGALS2, HELB, SKAP1, ZNF101, RGS19, CYFIP2, CNTRL, CBX7, ATM, TMC6, EVI2A, SCIMP, HVCN1, RASSF1, TPTE2, CSF1, GIMAP2, MOB3A, CTSZ, PPP3CC, FKBP11, KCNAB2, VAMP1, LRCH4, TCF7, GPR34, MTERF4, CDC42SE2, CLEC2D, ACAP1, TFEB, RASAL3, PREX1, NPIPB11, TPP1, PCED1B, NIN, MICAL1, RUBCN, DEF6, TRMO, KIF21B, BANK1, KLF13, GPSM3, PRAM1, RHOG, PLEKHA2, SLC25A42, ANKRD44
+
+Module 12 annotation, module size: 231
+Empty DataFrame
+Columns: [Term, Overlap, P-value, Adjusted P-value, Odds Ratio]
+Index: []
+
+
