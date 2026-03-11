@@ -1,5 +1,7 @@
 # NestedWGCNA
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18959244.svg)](https://doi.org/10.5281/zenodo.18959244)
+
 A two-stage gene co-expression network analysis algorithm for bulk RNA-Seq data. Compared to WGCNA, it uses:
 
 - **Adjacency:** r² (β = 2) instead of an arbitrary scale-free parameter
@@ -44,3 +46,5 @@ conda activate nestedwgcna
 ## Citation
 
 Dyugay et al. *Improved gene co-expression network analysis and its application for biomarker discovery of the response to immunotherapy.* (under review)
+
+Code archived at Zenodo: https://doi.org/10.5281/zenodo.18959244
