@@ -150,9 +150,12 @@ def errode_clusters(clusters: np.ndarray, dissim: np.ndarray) -> np.ndarray:
 
 def get_clust(data: pd.DataFrame, min_clust_size=30, n_components=None, random_state=42) -> (np.ndarray, np.ndarray):
     if n_components is None:
-        n_components = np.around(np.log2(data.shape[0]), 0) + 1
+        n_components = int(np.around(np.log2(data.shape[0]), 0) + 1)
+    n_genes, n_samples = data.shape[1], data.shape[0]
+    print(f'[1/4] Computing adjacency matrix ({n_genes} x {n_genes})...')
     sim = get_adjacency(data.values, alpha=1)
     dissim = np.sqrt(np.round(symmetrize(1 - sim), 12))
+    print(f'[2/4] Running UMAP (n_components={n_components}, n_neighbors={2 * min_clust_size})...')
     clusterable_embedding = umap.UMAP(densmap=True,
                                       dens_lambda=1.,
                                       n_neighbors=2 * min_clust_size,
@@ -162,14 +165,17 @@ def get_clust(data: pd.DataFrame, min_clust_size=30, n_components=None, random_s
                                       low_memory=False,
                                       metric='precomputed'
                                       ).fit_transform(dissim)
+    print(f'[3/4] Running HDBSCAN (min_cluster_size={min_clust_size})...')
     clusterer = hdbscan.HDBSCAN(metric='euclidean',
                                 min_cluster_size=min_clust_size,
                                 min_samples=min_clust_size // 2,
                                 approx_min_span_tree=False,
                                 core_dist_n_jobs=-1,
                                 )
-
     clusterer.fit(clusterable_embedding)
     clusters = clusterer.labels_
+    print(f'[4/4] Extracting cores via core decomposition...')
     core_clusters = errode_clusters(clusters, dissim)
-    return dissim, clusters, core_clusters
+    n_modules = clusters.max() + 1
+    print(f'Done. {n_modules} modules found, {(clusters != -1).sum()}/{len(clusters)} genes assigned.')
+    return clusters, core_clusters
